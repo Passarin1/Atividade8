@@ -1,0 +1,98 @@
+/* Estilo básico para centralização e layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px; /* Tamanho máximo da logo */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+main img {
+    max-width: 90%; /* Define o tamanho máximo das imagens do main */
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+section h2 {
+    margin-top: 2rem;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+section img {
+    max-width: 200px; /* Define o tamanho máximo das imagens nos lançamentos */
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    max-width: 30px; /* Tamanho máximo das imagens do footer */
+    height: auto;
+    margin: 0 0.5rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

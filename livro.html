@@ -3,12 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livro de FNAF</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Livros de FNAF</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <style>
+        /* Estilo básico para centralização e layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        main img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        main p {
+            text-align: justify;
+            margin: 1rem 0;
+        }
+
+        h1, h2 {
+            margin-top: 2rem;
+        }
+
+        ol {
+            text-align: left;
+            display: inline-block;
+            margin: 1rem auto;
+            padding: 0;
+        }
+
+        ol ul {
+            padding-left: 1.5rem;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #0066cc;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer img {
+            max-width: 30px;
+            margin: 0 0.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="/imagens/logo.png" alt="Logo do fnaf"></a>
+        <a href="index.html"><img src="/imagens/logo.png" alt="Logo do FNAF"></a>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -20,9 +143,11 @@
     </header>
 
     <main>
-        <h1>O Novos Livros de FNAF </h1>
-        <img src="/imagens/Livro4.png" alt="Capa do Livro">
-        <p><strong>Resumo:</strong> No quarto livro da nova série do universo de Five Nights at Freddy’s, uma raposa animatrônica, uma bailarina sinistra e o fantasma de uma garotinha vão assombrar novas vítimas
+        <h1>Novos Livros de FNAF</h1>
+        
+        <section>
+            <img src="/imagens/Livro4.png" alt="Capa do Livro 4">
+            <p><strong>Resumo:</strong> No quarto livro da nova série do universo de Five Nights at Freddy’s, uma raposa animatrônica, uma bailarina sinistra e o fantasma de uma garotinha vão assombrar novas vítimas.
 
             O universo de Five Night’s at Freddy’s é um fenômeno absoluto e conquistou milhões de fãs ao redor do mundo. 
             Unindo mistério, ação e criaturas macabras, os contos interligados e assustadores da nova série Pavores de Fazbear provam que todo cuidado é pouco ao adentrar a Pizzaria Freddy Fazbear’s.
@@ -34,51 +159,52 @@
             E a boneca parece chegar cada vez mais perto…
             Samantha sente a presença de um fantasma. Um ano atrás, sua irmã foi assassinada na Pizzaria Freddy Fazbear’s.
             Quando eventos inexplicáveis começam a acontecer, a menina percebe que a irmã morta está tentando se comunicar com ela e revelar algo terrível…
-            No epílogo de cada volume da série, uma nova parte da aterrorizante história “Aparição de Sutura” é revelada — na trama, um investigador busca respostas para uma série de eventos inexplicáveis.
-        </p>
-        <p><strong>Gênero:</strong> <strong>Terror e mistério</strong></p>
-        <h2>Índice</h2>
-        <ol>
-            <li>livro de fnaf:chegue mais perto
-                <ul>
-                    <li>Capítulo 1: Step close</li>
-                    <li>Capítulo 2: Dance with me</li>
-                    <li>Capítulo 3: Coming home</li>
-                </ul>
-            </li>
-            <li>Epílogo</li>
-        </ol>
-        <p><strong>Preço:</strong> R$49,90</p>
-        <a href="https://www.amazon.com.br/Chegue-mais-perto-Freddys-Pavores/dp/855101014X/ref=pd_lpo_sccl_3/131-2874723-1042065?pd_rd_w=KCko5&content-id=amzn1.sym.a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_p=a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_r=401AEV33204YE5EBDMRV&pd_rd_wg=JzVyG&pd_rd_r=0ff39889-9850-46a9-bd42-c52b98020289&pd_rd_i=855101014X&psc=1"> link para comprar o livro de fnaf: chegue mais perto </a></li>
-        "><button>Compre Agora</button></a>
-        
-        <p></p>
-        <h1>O Novos Livros de FNAF </h1>
-        <img src="/imagens/Livro5.png" alt="Capa do Livro">
-        <p><strong>Resumo:</strong> Quando deixado na escuridão, a raiva inflama. Anos de frustração com sua família culminam em férias repugnantes para Bob, que planeja uma brincadeira sinistra para assustar sua esposa e filhos. Matt redireciona a raiva residual sobre seus muitos relacionamentos fracassados ​​para um videogame e acaba dando à luz as consequências horríveis. No quarto 1280 do Hospital Heracles, algo maligno está mantendo um homem vivo, um homem com queimaduras horríveis por todo o corpo e uma vontade de ferro de viver. Neste quinto volume, o criador de Five Nights at Freddy's, Scott Cawthon, cria três histórias sinistras do tamanho de uma novela de diferentes cantos do cânone de sua série, apresentando a arte da capa da artista favorita dos fãs, LadyFiszi. Leitores, cuidado: esta coleção de contos aterrorizantes é o suficiente para perturbar até os fãs mais endurecidos de Five Nights at Freddy's </p>
-        <p><strong>Gênero:</strong> <strong>Terror e mistério</strong></p>
-        <h2>Índice</h2>
-        <ol>
-            <li>livro de fnaf:chegue bunny call
-                <ul>
-                    <li>Capítulo 1: bunny call</li>
-                    <li>Capítulo 2: In the flesh</li>
-                    <li>Capítulo 3: the man in room 1280</li>
-                </ul>
-            </li>
-            <li>Epílogo</li>
-        </ol>
-        <p><strong>Preço:</strong> R$108,03</p>
-        <a href="https://amazon.com.br/Bunny-Call-Five-Nights-Freddys/dp/1338576046"> link para comprar o livro de fnaf: chegue mais perto </a></li>
-        "><button>Compre Agora</button></a>
+            No epílogo de cada volume da série, uma nova parte da aterrorizante história “Aparição de Sutura” é revelada — na trama, um investigador busca respostas para uma série de eventos inexplicáveis.</p>
+            <p><strong>Gênero:</strong> <strong>Terror e mistério</strong></p>
+            <h2>Índice</h2>
+            <ol>
+                <li>Livro de FNAF: Chegue Mais Perto
+                    <ul>
+                        <li>Capítulo 1: Step Close</li>
+                        <li>Capítulo 2: Dance With Me</li>
+                        <li>Capítulo 3: Coming Home</li>
+                    </ul>
+                </li>
+                <li>Epílogo</li>
+            </ol>
+            <p><strong>Preço:</strong> R$49,90</p>
+            <a href="https://www.amazon.com.br/Chegue-mais-perto-Freddys-Pavores/dp/855101014X/ref=pd_lpo_sccl_3/131-2874723-1042065?pd_rd_w=KCko5&content-id=amzn1.sym.a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_p=a2197dac-0fbe-4cc8-beca-b52f96ea33d5&pf_rd_r=401AEV33204YE5EBDMRV&pd_rd_wg=JzVyG&pd_rd_r=0ff39889-9850-46a9-bd42-c52b98020289&pd_rd_i=855101014X&psc=1">
+                <button>Compre Agora</button></a>
+        </section>
+
+        <section>
+            <h1>Novos Livros de FNAF</h1>
+            <img src="/imagens/Livro5.png" alt="Capa do Livro 5">
+            <p><strong>Resumo:</strong> Quando deixado na escuridão, a raiva inflama. Anos de frustração com sua família culminam em férias repugnantes para Bob, que planeja uma brincadeira sinistra para assustar sua esposa e filhos. Matt redireciona a raiva residual sobre seus muitos relacionamentos fracassados para um videogame e acaba dando à luz as consequências horríveis. No quarto 1280 do Hospital Heracles, algo maligno está mantendo um homem vivo, um homem com queimaduras horríveis por todo o corpo e uma vontade de ferro de viver. Neste quinto volume, o criador de Five Nights at Freddy's, Scott Cawthon, cria três histórias sinistras do tamanho de uma novela de diferentes cantos do cânone de sua série, apresentando a arte da capa da artista favorita dos fãs, LadyFiszi. Leitores, cuidado: esta coleção de contos aterrorizantes é o suficiente para perturbar até os fãs mais endurecidos de Five Nights at Freddy's.</p>
+            <p><strong>Gênero:</strong> <strong>Terror e mistério</strong></p>
+            <h2>Índice</h2>
+            <ol>
+                <li>Livro de FNAF: Chegue Bunny Call
+                    <ul>
+                        <li>Capítulo 1: Bunny Call</li>
+                        <li>Capítulo 2: In the Flesh</li>
+                        <li>Capítulo 3: The Man in Room 1280</li>
+                    </ul>
+                </li>
+                <li>Epílogo</li>
+            </ol>
+            <p><strong>Preço:</strong> R$108,03</p>
+            <a href="https://amazon.com.br/Bunny-Call-Five-Nights-Freddys/dp/1338576046">
+                <button>Compre Agora</button></a>
+        </section>
     </main>
 
     <footer>
         <p>O e-mail profissional de Scott Cawthon é: <a href="mailto:fazbearhelp@yahoo.com">fazbearhelp@yahoo.com</a>.</p>
-        <p>O e-mail pessoal dele é: <a href="mailto:scottcawthon@yahoo.com">scottcawthon@yahoo.com</a>.</p>    
-        <div>
+        <p>O e-mail pessoal dele é: <a href="mailto:scottcawthon@yahoo.com">scottcawthon@yahoo.com</a>.</p>
+        <div class="social-links">
             <a href="https://www.instagram.com/scottcawthon87/"><img src="/imagens/instagram.png" alt="Instagram"></a>
-            <a href="https://www.facebook.com/p/Scott-Cawthon-100063921001543/"><img src="/imagens/Fecebook.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com/p/Scott-Cawthon-100063921001543/"><img src="/imagens/facebook.png" alt="Facebook"></a>
             <a href="https://www.youtube.com/@animdude/videos"><img src="/imagens/youtube.png" alt="YouTube"></a>
         </div>
     </footer>

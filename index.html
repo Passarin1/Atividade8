@@ -3,12 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coisas de fnaf - Página Inicial</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Coisas de FNAF - Página Inicial</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+    <style>
+        /* Estilo básico para centralização e layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        main img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        section h2 {
+            margin-top: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer img {
+            max-width: 30px;
+            margin: 0 0.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="/imagens/logo.png" alt="Logo de luis"></a>
+        <a href="index.html"><img src="/imagens/logo.png" alt="Logo de Luis"></a>
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -21,7 +103,7 @@
 
     <main>
         <img src="/imagens/ScottCawthon.png" alt="Scott Cawthon">
-        <img src="/imagens/Scott_icon_larger.png" alt="icone do Scott Cawthon">
+        <img src="/imagens/Scott_icon_larger.png" alt="Ícone do Scott Cawthon">
         <h1>Scott Cawthon</h1>
         <p>Aqui acima vemos o criador do jogo e dos filmes de Five Nights at Freddy’s.</p>
 
@@ -29,10 +111,11 @@
     
         <section>
             <h2>Lançamentos</h2>
-            <ul>
-                <li><a href="filme.html"><img src="/imagens/capa.png" alt="Próximo Filme"></a></li>
-                <li><a href="livro.html"><img src="/imagens/livro.png" alt="Próximo Livro"></a></li>
-                <li><a href="musica.html"><img src="imagens/musicaCapa.png" alt="Próximo Álbum"></a></li>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="display: inline-block; margin: 1rem;"><a href="filme.html"><img src="/imagens/capa.png" alt="Próximo Filme"></a></li>
+                <li style="display: inline-block; margin: 1rem;"><a href="livro.html"><img src="/imagens/Livro4.png" alt="Próximo Livro"></a></li>
+                <li style="display: inline-block; margin: 1rem;"><a href="livro.html"><img src="/imagens/Livro5.png" alt="Próximo Livro"></a></li>
+                <li style="display: inline-block; margin: 1rem;"><a href="musica.html"><img src="/imagens/musicaCapa.png" alt="Próximo Álbum"></a></li>
             </ul>
         </section>
     </main>
@@ -40,9 +123,9 @@
     <footer>
         <p>O e-mail profissional de Scott Cawthon é: <a href="mailto:fazbearhelp@yahoo.com">fazbearhelp@yahoo.com</a>.</p>
         <p>O e-mail pessoal dele é: <a href="mailto:scottcawthon@yahoo.com">scottcawthon@yahoo.com</a>.</p>    
-        <div>
+        <div class="social-links">
             <a href="https://www.instagram.com/scottcawthon87/"><img src="/imagens/instagram.png" alt="Instagram"></a>
-            <a href="https://www.facebook.com/p/Scott-Cawthon-100063921001543/"><img src="/imagens/Fecebook.png" alt="Facebook"></a>
+            <a href="https://www.facebook.com/p/Scott-Cawthon-100063921001543/"><img src="/imagens/facebook.png" alt="Facebook"></a>
             <a href="https://www.youtube.com/@animdude/videos"><img src="/imagens/youtube.png" alt="YouTube"></a>
         </div>
     </footer>
